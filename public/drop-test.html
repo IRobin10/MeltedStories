@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+  
+  body {
+    background: #0f0a05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 80px;
+    font-family: 'Leckerli One', cursive;
+  }
+  .logo-container {
+    position: relative;
+    color: #c9a253;
+  }
+  .logo-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 100' preserveAspectRatio='none'%3E%3Cdefs%3E%3Cfilter id='goo'%3E%3CfeGaussianBlur in='SourceGraphic' stdDeviation='2' result='blur' /%3E%3CfeColorMatrix in='blur' mode='matrix' values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 18 -7' result='goo' /%3E%3CfeBlend in='SourceGraphic' in2='goo' /%3E%3C/filter%3E%3C/defs%3E%3Cg filter='url(%23goo)' fill='%233d2314'%3E%3Cpath d='M0,0 L400,0 L400,20 Q350,50 300,20 Q250,-10 200,30 Q150,60 100,20 Q50,-10 0,30 Z'%3E%3Canimate attributeName='d' values='M0,0 L400,0 L400,20 Q350,20 300,20 Q250,20 200,20 Q150,20 100,20 Q50,20 0,20 Z; M0,0 L400,0 L400,20 Q350,60 300,20 Q250,-20 200,40 Q150,70 100,20 Q50,-20 0,40 Z; M0,0 L400,0 L400,20 Q350,20 300,20 Q250,20 200,20 Q150,20 100,20 Q50,20 0,20 Z' dur='3s' repeatCount='indefinite'/%3E%3C/path%3E%3Ccircle cx='200' cy='30' r='10'%3E%3Canimate attributeName='cy' values='30; 120' dur='3s' repeatCount='indefinite'/%3E%3Canimate attributeName='opacity' values='1; 0' dur='3s' repeatCount='indefinite'/%3E%3C/circle%3E%3Ccircle cx='100' cy='20' r='8'%3E%3Canimate attributeName='cy' values='20; 100' dur='3s' begin='1s' repeatCount='indefinite'/%3E%3Canimate attributeName='opacity' values='1; 0' dur='3s' begin='1s' repeatCount='indefinite'/%3E%3C/circle%3E%3Ccircle cx='300' cy='20' r='12'%3E%3Canimate attributeName='cy' values='20; 150' dur='3s' begin='1.5s' repeatCount='indefinite'/%3E%3Canimate attributeName='opacity' values='1; 0' dur='3s' begin='1.5s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+</style>
+</head>
+<body>
+  <div class="logo-container">
+    Melted Stories
+    <div class="logo-overlay">Melted Stories</div>
+  </div>
+</body>
+</html>
